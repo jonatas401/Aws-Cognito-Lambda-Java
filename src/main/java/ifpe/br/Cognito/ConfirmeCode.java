@@ -27,7 +27,7 @@ public class ConfirmeCode implements RequestHandler<Request, Response>{
 
 	
 	private AWSCognitoIdentityProvider createCognitoClient() {
-	    AWSCredentials cred = new BasicAWSCredentials("ASIASMVYUWZ23AVQTT5O", "5LGGirq1N7hYjNr9G1FvWc6iGccLc27zow5AECc6");
+	    AWSCredentials cred = new BasicAWSCredentials("aws_access_key_id", "secretAccessKey");
 	    AWSCredentialsProvider credProvider = new AWSStaticCredentialsProvider(cred);
 	    return AWSCognitoIdentityProviderClientBuilder.standard()
 	            .withCredentials(credProvider)
@@ -36,7 +36,7 @@ public class ConfirmeCode implements RequestHandler<Request, Response>{
 	}
 	public ConfirmSignUpResult confirmSignUp(String email, String confirmationCode) {
 	    ConfirmSignUpRequest confirmSignUpRequest = new                 
-	    ConfirmSignUpRequest().withClientId("58ml8qm96ng6a3g7hvbfnj6n5f").withUsername(email).withConfirmationCode(confirmationCode);
+	    ConfirmSignUpRequest().withClientId("CLIENT_ID").withUsername(email).withConfirmationCode(confirmationCode);
 	    return this.createCognitoClient().confirmSignUp(confirmSignUpRequest);
 	}
 	
