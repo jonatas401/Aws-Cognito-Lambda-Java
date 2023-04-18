@@ -30,7 +30,7 @@ public class Create implements RequestHandler<Request, Response>{
 	}
 
 	private AWSCognitoIdentityProvider createCognitoClient() {
-	    AWSCredentials cred = new BasicAWSCredentials("ASIASMVYUWZ23AVQTT5O", "5LGGirq1N7hYjNr9G1FvWc6iGccLc27zow5AECc6");
+	    AWSCredentials cred = new BasicAWSCredentials("aws_access_key_id", "secretAccessKey);
 	    AWSCredentialsProvider credProvider = new AWSStaticCredentialsProvider(cred);
 	    return AWSCognitoIdentityProviderClientBuilder.standard()
 	            .withCredentials(credProvider)
@@ -39,7 +39,7 @@ public class Create implements RequestHandler<Request, Response>{
 	}
 	
 	public SignUpResult signUp(String name, String email, String password) {
-	    SignUpRequest request = new SignUpRequest().withClientId("58ml8qm96ng6a3g7hvbfnj6n5f")
+	    SignUpRequest request = new SignUpRequest().withClientId("CLIENT_ID")
 	               .withUsername(email)
 	               .withPassword(password)
 	               .withUserAttributes(

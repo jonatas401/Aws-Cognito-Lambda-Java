@@ -30,13 +30,13 @@ public class Login implements RequestHandler<Request, Map>{
 	    
 	    // 1º opção de uso
 //	            .withAuthFlow(AuthFlowType.ADMIN_NO_SRP_AUTH)
-//	            .withUserPoolId("us-east-1_H9Myo7jJY")
-//	            .withClientId("58ml8qm96ng6a3g7hvbfnj6n5f")
+//	            .withUserPoolId("PoolId")
+//	            .withClientId("ClientId")
 //	            .withAuthParameters(authParams);
 	    
 	    // 2º opção de uso
-	    authRequest.setClientId("58ml8qm96ng6a3g7hvbfnj6n5f");
-	    authRequest.setUserPoolId("us-east-1_H9Myo7jJY");
+	    authRequest.setClientId("ClientId");
+	    authRequest.setUserPoolId("PoolId");
 	    authRequest.setAuthFlow("ADMIN_NO_SRP_AUTH");
 	    authRequest.setAuthParameters(authParams);
 	    AdminInitiateAuthResult authResult = client.adminInitiateAuth(authRequest);
