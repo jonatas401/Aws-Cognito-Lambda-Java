@@ -15,7 +15,7 @@ public class ConfirmPasswordCode implements RequestHandler<Request, Response>{
 	@Override
 	public Response handleRequest(Request input, Context context) {
 		AWSCognitoIdentityProvider client = AWSCognitoIdentityProviderClientBuilder.defaultClient();
-		ConfirmForgotPasswordRequest request = new ConfirmForgotPasswordRequest().withClientId("58ml8qm96ng6a3g7hvbfnj6n5f")
+		ConfirmForgotPasswordRequest request = new ConfirmForgotPasswordRequest().withClientId("ClientId")
 												.withUsername(input.getEmail())
 												.withConfirmationCode(input.getCode())
 	               								.withPassword(input.getPassword());

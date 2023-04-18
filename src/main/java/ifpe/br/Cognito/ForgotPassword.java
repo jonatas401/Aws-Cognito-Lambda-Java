@@ -17,7 +17,7 @@ public class ForgotPassword implements RequestHandler<Request, Response>{
 	@Override
 	public Response handleRequest(Request input, Context context) {
 		AWSCognitoIdentityProvider client = AWSCognitoIdentityProviderClientBuilder.defaultClient();
-		ForgotPasswordRequest request = new ForgotPasswordRequest().withClientId("58ml8qm96ng6a3g7hvbfnj6n5f")
+		ForgotPasswordRequest request = new ForgotPasswordRequest().withClientId("ClientId")
 	               .withUsername(input.getEmail());
 		
 		ForgotPasswordResult result = client.forgotPassword(request);
