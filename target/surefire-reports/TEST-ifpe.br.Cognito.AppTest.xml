@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="ifpe.br.Cognito.AppTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="ifpe.br.Cognito.AppTest" time="0.007" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
     <property name="java.vm.version" value="17.0.4.1+1"/>
     <property name="sun.boot.library.path" value="/opt/sts-4.16.1-RELEASE/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_17.0.4.v20221004-1257/jre/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/jonatas/Documentos/ifpe/extensão AWS/Cognito"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/jonatas/Documentos/ifpe/extensão AWS/meu repositorio github/Cognito"/>
     <property name="java.vm.vendor" value="Eclipse Adoptium"/>
     <property name="java.vendor.url" value="https://adoptium.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -14,7 +14,7 @@
     <property name="user.country" value="BR"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/jonatas/Documentos/ifpe/extensão AWS/Cognito"/>
+    <property name="user.dir" value="/home/jonatas/Documentos/ifpe/extensão AWS/meu repositorio github/Cognito"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="17.0.4.1+1"/>
     <property name="os.arch" value="amd64"/>
@@ -23,7 +23,7 @@
 "/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="os.name" value="Linux"/>
-    <property name="classworlds.conf" value="/home/jonatas/Documentos/ifpe/extensão AWS/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf3119653279223140414.tmp"/>
+    <property name="classworlds.conf" value="/home/jonatas/Documentos/ifpe/extensão AWS/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf12467848798072940521.tmp"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
     <property name="jdk.debug" value="release"/>
@@ -47,7 +47,7 @@
     <property name="java.version" value="17.0.4.1"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.vendor" value="Eclipse Adoptium"/>
-    <property name="maven.home" value="/home/jonatas/Documentos/ifpe/extensão AWS/Cognito/EMBEDDED"/>
+    <property name="maven.home" value="/home/jonatas/Documentos/ifpe/extensão AWS/meu repositorio github/Cognito/EMBEDDED"/>
     <property name="style.color" value="always"/>
     <property name="file.separator" value="/"/>
     <property name="java.version.date" value="2022-08-12"/>
@@ -56,5 +56,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="java.vendor.version" value="Temurin-17.0.4.1+1"/>
   </properties>
-  <testcase classname="ifpe.br.Cognito.AppTest" name="shouldAnswerWithTrue" time="0.008"/>
+  <testcase classname="ifpe.br.Cognito.AppTest" name="shouldAnswerWithTrue" time="0.007"/>
 </testsuite>
